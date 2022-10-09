@@ -46,8 +46,67 @@ a:hover {
 }
 
 .convert-section{
-    margin-top: 15%;
-    border: 5px solid #FFFF00;
+    margin-top: 10%;
     text-align: center;
-    height: 200px;
+}
+
+.form {
+  width: 97%;
+  height: 278px;
+  margin: 1% auto;
+  border: 2px dashed #3d3935;
+}
+
+.drop-select{
+    width: 90%;
+    height: 300px;
+    max-width: 800px;
+    margin: 1% auto;
+    border: 5px solid #3d3935;
+}
+
+.upload-ui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 238px;
+  padding: 20px 0;
+
+}
+.upload-ui img {
+  width: 40px;
+}
+.upload-ui h2 {
+  margin-top: 10px;
+  color: #3d3935;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.upload-ui p {
+  margin: 8px 0;
+  font-size: 1.25rem;
+}
+.input-upload {
+  display: none;
+}
+.btn-upload {
+  width: 200px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #004b8c;
+  color: #fff;
+  font-size: 1.25rem;
+  outline: none;
+  cursor: pointer;
+}
+.file-name {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.dragover {
+  background-color: rgba(0, 0, 0, .2);
 }
